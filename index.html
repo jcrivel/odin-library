@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="newBook">Add Book to Library</button>
+    <div id="newBookModal" class="modal">
+        <div class="new-book-modal-content">
+            <span id = modalCloseButton class="close">&times;</span>
+            <br>
+            <p>Title: <input id="title"></p>
+            <br>
+            <p>Author: <input id="author"></p>
+            <br>
+            <p>Number of Pages: <input id="pages"></p><input id="pages">
+            <br>
+            <p>Have you read this before?: <input id="readBefore" type="checkbox"></p>
+        </div>
+    </div>
+    <div id="bookList">
+
+    </div>
+    
+    <script src = "script.js"></script>
+</body>
+</html>
